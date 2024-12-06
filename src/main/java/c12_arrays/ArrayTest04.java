@@ -23,7 +23,7 @@ public class ArrayTest04 {
             num[i] = (int) (Math.random() * 10) + 1;
         }
         for (int i = 0; i < 10; i++) {
-            sum += num[i];s
+            sum += num[i];
             if (num[i] % 2 == 0) {
                 num2 += num[i];
             }
